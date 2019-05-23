@@ -34,7 +34,7 @@ const cart = (state = initialState, action) => {
             localStorage.setItem('CART', JSON.stringify(state))
             return [...state]
         default:
-            return [...state]
+            return state
     }
 }
 
